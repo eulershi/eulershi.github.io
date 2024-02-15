@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zixing Wang</title>
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--
+    - #MAIN
+  -->
+  <main>
+    <!--
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="Yuang Shi" width="55">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Yuang Shi">Yuang Shi</h1>
+          <!-- <p class="title">Web developer</p> -->
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:yuangshi@sjtu.edu.cn" class="contact-link">yuangshi@sjtu.edu.cn</a>
+              <a href="mailto:eulershi@gmail.com" class="contact-link">eulershi@gmail.com</a> (Private)
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+8619821289602" class="contact-link">+86 19821289602</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+              <time datetime="2001-02-22">February 22, 2001</time>
+            </div>
+          </li>
+          <li class="contact-item" style="text-align:center">
+            <form method="get" action="./assets/files/cv.pdf" target="_blank">
+              <button class="form-btn" type="submit">Download CV</button>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!--
+      - #main-content
+    -->
+    <div class="main-content">
+      <!--
+        - #NAVBAR
+      -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Comment</button>
+          </li>
+        </ul>
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+      <article class="about  active" data-page="about">
+        <h2 class="h2 article-title">About me</h2>
+        <section class="about-text">
+          <p>
+            Hi, there 👋.
+          </p>
+          <p>
+            I'm <strong>Yuang Shi</strong> from China, a second-year Ph.D student at the Shanghai Jiao Tong University (SJTU) with major in differential geometry. Broadly, I am interested in complex (differential & algebraic) geometry.
+                      </p>
+        </section>
+        <!--
+          - service
+        -->
+        <section class="service">
+          <h2 class="h2 service-title">What i'm doing</h2>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-think.svg" alt="think icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">math</h4>
+                <p class="service-item-text">
+                  The platonic world behind mathematics is worthy of our precious life, energy and social life.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icone-de-la-musique-jaune.svg" alt="book icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">music</h4>
+                <p class="service-item-text">
+             I like all kinds of music, especially R&B, soul and British rock.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/football.svg" alt="cube icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">football</h4>
+                <p class="service-item-text">
+                 I play football and watch football matches. My favorite team is Manchester United in the English Premier league.
+                </p>
+              </div>
+            </li>
+            </ul>
+        </section>
+        <h2 class="h2 article-title">Research statement</h2>
+        <section class="about-text">
+          <p>
+            Currently, I have a strong interest in exploring the structures of noncompact Kähler manifolds with curvature bounded below, particularly utilizing the Cheeger-Colding-Tian-Naber theory on Ricci limit spaces. 
+          </p>
+        </section>
+      </article>
+      <!--
+        - #RESUME
+      -->
+      <article class="resume" data-page="resume">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Shanghai Jiao Tong University (SJTU)</h4>
+              <span>Sep. 2022 - Present</span>
+              <p class="timeline-text">
+                 Ph.D in Pure Mathematics (Ph.D. Zhiyuan Honors Program), expected Jun. 2027
+              </p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Shanghai Jiao Tong University (SJTU)</h4>
+              <span>Sep. 2018 ‑ Jun. 2022</span>
+              <p class="timeline-text">
+                B.S. in Mathematics and Applied Mathematics (Wu Wenjun Honour Program)
+              </p>
+              <i class="timeline-major">
+                <strong style="color:rgb(196, 95, 95)">Outstanding graduates</strong> of Shanghai Jiao Tong University
+              </i>
+            </li>
+          </ol>
+        </section>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Selected Honors and Awards</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <p class="h4 timeline-item-title">
+                <strong style="color:DodgerBlue">(Dec. 2019)</strong> Shanghai Jiao Tong University School Scholarship
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="h4 timeline-item-title">
+                <strong style="color:DodgerBlue">(Sep. 2021)</strong> "Student Volunteer Pioneer" against COVID-19 
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="h4 timeline-item-title">
+                <strong style="color:DodgerBlue">(Dec. 2021)</strong> Huawei Scholarship 
+              </p>
+            </li>
+            <li class="timeline-item">
+              <p class="h4 timeline-item-title">
+                <strong style="color:DodgerBlue">(Dec. 2021)</strong> 12-th National Mathematics Competition for College Students: Second Class Prize
+              </p>
+            </li>
+          </ol>
+        </section>
+         <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Notes</h3>
+          </div>
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Notes on Kähler Ricci Flow</h4>
+              <a href="./assets/files/Notes on Kahler Ricci Flow.pdf" target="_blank">
+               </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Notes on Cheeger-Colding-Tian Theory and Yau's Uniformization Conjecture</h4>
+               <a href="./assets/files/Notes on Cheeger-Colding-Tian Theory and Yau's Uniformization Conjecture.pdf" target="_blank">           
+                </li>
+          </ol>
+        </section>
+           </article>
+           <article class="comment" data-page="comment">
+        <header>
+          <h2 class="h2 article-title">Comment</h2>
+        </header>
+        <p>
+          Feel free to share your thoughts and comments on this website.
+        </p>
+      </article>
+    </div>
+  </main>
+  <!--
+    - custom js link
+  -->
+  </body>
+
+</html>
